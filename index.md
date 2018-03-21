@@ -1,6 +1,6 @@
-## Welcome to cshrpbscs
+## Welcome to CSHRPBSCS
 
-This is a documentation of basic C# codes and features with code samples.
+A documentation of basic C# codes samples.
 
 ### Markdown
 
