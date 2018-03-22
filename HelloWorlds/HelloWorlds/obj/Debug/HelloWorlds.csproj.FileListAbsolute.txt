@@ -1,0 +1,10 @@
+c:\users\enol\documents\visual studio 2015\Projects\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe
+c:\users\enol\documents\visual studio 2015\Projects\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.pdb
+c:\users\enol\documents\visual studio 2015\Projects\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csprojResolveAssemblyReference.cache
+c:\users\enol\documents\visual studio 2015\Projects\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.exe
+c:\users\enol\documents\visual studio 2015\Projects\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Users\Enol\Documents\Repo\cshrpbscs\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.exe
+C:\Users\Enol\Documents\Repo\cshrpbscs\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Users\Enol\Documents\Repo\cshrpbscs\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe
+C:\Users\Enol\Documents\Repo\cshrpbscs\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.pdb
+C:\Users\Enol\Documents\Repo\cshrpbscs\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.csprojResolveAssemblyReference.cache
