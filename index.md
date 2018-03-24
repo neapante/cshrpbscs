@@ -3,6 +3,11 @@
 1. [Hello World](#item_1)
 2. [Hello World using a Method](#item_2)
 3. [Hello World using a Class](#item_3)
+4. [Object Oriented Programming Concepts](#item_4)
+    1. [Abstraction](#item_4a)
+    2. [Encapsulation](#item_4b)
+    3. [Polymorphism](#item_4c)
+    4. [Inheritance](#item_4d)
 
 ### <a id="item_1"></a>1. Hello World
 
@@ -82,3 +87,10 @@ namespace HelloWorlds
 }
 ```
 
+### <a id="item_4"></a>4. Object Oriented Programming Concepts
+### <a id="item_4a"></a>4a. Abstraction
+
+Abstraction is a concept of hiding the unneccessary functions from the user and showing what is needed only. In order to accomplish abstraction, encapsulation must be implemented.
+
+Sources: https://www.youtube.com/watch?v=L1-zCdrx8Lk - Short explanation of abstraction
+https://www.youtube.com/watch?v=1Q4I63-hKcY&t=676s - Abstraction vs. Encapsulation
