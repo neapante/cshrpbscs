@@ -94,3 +94,23 @@ Abstraction is a concept of hiding the unneccessary functions from the user and 
 
 Sources: https://www.youtube.com/watch?v=L1-zCdrx8Lk - Short explanation of abstraction
 https://www.youtube.com/watch?v=1Q4I63-hKcY&t=676s - Abstraction vs. Encapsulation
+
+### <a id="item_4b"></a>4b. Encapsulation
+
+Encapsulation is hiding or exposing your properties, fields, methods, and etc. using access modifiers.
+As a rule, public properties are favored over public fields.
+
+```csharp
+    public class VendingMachine
+    {
+        private decimal basePrice; //'Hiding' the Field using private access modifier
+        
+        public decimal BasePrice; //Making the Property public so that it can be accessed by the Main class
+        {
+            get { return basePrice; }
+            set { basePrice = value; }
+        }
+    }
+ ```
+ 
+ 
