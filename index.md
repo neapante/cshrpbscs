@@ -88,12 +88,13 @@ namespace HelloWorlds
 ```
 
 ### <a id="item_4"></a>4. Object Oriented Programming Concepts
-### <a id="item_4a"></a>4a. Abstraction
+    ### <a id="item_4a"></a>4a. Abstraction
 
 Abstraction is a concept of hiding the unneccessary functions from the user and showing what is needed only. In order to accomplish abstraction, encapsulation must be implemented.
 
-Sources: https://www.youtube.com/watch?v=L1-zCdrx8Lk - Short explanation of abstraction
-https://www.youtube.com/watch?v=1Q4I63-hKcY&t=676s - Abstraction vs. Encapsulation
+Sources: 
+[Short explanation of abstraction](https://www.youtube.com/watch?v=L1-zCdrx8Lk)
+[Abstraction vs. Encapsulation](https://www.youtube.com/watch?v=1Q4I63-hKcY&t=676s)
 
 ### <a id="item_4b"></a>4b. Encapsulation
 
@@ -111,6 +112,84 @@ As a rule, public properties are favored over public fields.
             set { basePrice = value; }
         }
     }
- ```
- 
- 
+```
+
+### <a id="item_4b"></a>4c. Inheritance
+
+```csharp
+    public class VendingMachine
+    {
+        private decimal basePrice;
+        public decimal BasePrice
+        {
+            get { return basePrice; }
+            set { basePrice = value; }
+        }
+    }
+
+    //Inheritance
+    //Inheriting VendingMachine class
+    public class NewVendingMachine : VendingMachine
+    {
+    }
+```
+
+Main Program
+```csharp
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            NewVendingMachine myNewMachine = new NewVendingMachine();
+            myNewMachine.BasePrice = 20;
+            //Accessing BasePrice Property through Inheritance
+            Console.WriteLine("[Inheritance] Price: " + myNewMachine.BasePrice);
+            Console.ReadLine();
+        }
+    }
+```
+
+### <a id="item_4b"></a>4d. Polymorphism
+
+```csharp
+    public class VendingMachine
+    {
+        private decimal basePrice;
+
+        public decimal BasePrice
+        {
+            get { return basePrice; }
+            set { basePrice = value; }
+        }
+
+        public virtual void GetSelectedDrink() //add VIRTUAL modifier so that it can be overridden
+        {
+            Console.WriteLine("[Base Class] Getting the drink.");
+        }
+    }
+
+    //Inheritance
+    public class NewVendingMachine : VendingMachine
+    {
+        //Polymorphism
+        public override void GetSelectedDrink() //overide the method
+        {
+            Console.WriteLine("[Polymorphed] Getting the NEW drink.");
+        }
+    }
+```
+
+Main Program
+
+```csharp
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            NewVendingMachine myNewMachine = new NewVendingMachine();
+            myNewMachine.GetSelectedDrink(); //OUTPUT: [Polymorphed] Getting the NEW drink.
+            Console.ReadLine();
+        }
+    }
+```
+
