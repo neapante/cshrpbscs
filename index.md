@@ -129,6 +129,7 @@ As a rule, public properties are favored over public fields.
 
     //Inheritance
     //Inheriting VendingMachine class
+    //To inherit a class add ':' then the Base Class
     public class NewVendingMachine : VendingMachine
     {
     }
@@ -172,7 +173,8 @@ Main Program
     public class NewVendingMachine : VendingMachine
     {
         //Polymorphism
-        public override void GetSelectedDrink() //overide the method
+        //overide the method with OVERRIDE
+        public override void GetSelectedDrink() 
         {
             Console.WriteLine("[Polymorphed] Getting the NEW drink.");
         }
