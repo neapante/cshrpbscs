@@ -88,7 +88,7 @@ namespace HelloWorlds
 ```
 
 ### <a id="item_4"></a>4. Object Oriented Programming Concepts
-    ### <a id="item_4a"></a>4a. Abstraction
+### <a id="item_4a"></a>4a. Abstraction
 
 Abstraction is a concept of hiding the unneccessary functions from the user and showing what is needed only. In order to accomplish abstraction, encapsulation must be implemented.
 
