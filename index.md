@@ -237,7 +237,7 @@ class Program
     }
 ```
 
-### <a id="item_5"></a>6. Array and ArrayList
+### <a id="item_6"></a>6. Array and ArrayList
 
 ```csharp
 class Program
